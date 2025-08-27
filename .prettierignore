@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Prisma generated files
+packages/db/src/generated/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# Git
+.git/
+
+# Husky
+.husky/_
